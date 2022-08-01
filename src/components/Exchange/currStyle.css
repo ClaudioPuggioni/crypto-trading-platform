@@ -1,0 +1,47 @@
+.currholding-container {
+  width: 495px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+  border: none;
+  border-radius: 10px;
+  background-color: #171c26;
+
+  color: whitesmoke;
+}
+
+.currholding-container>h3 {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+
+.currholding-cardscontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow-y: auto;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.curr-HoldingCard {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+  margin-right: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px 1px #09090970;;
+  background-color: #13181f;
+  position: relative;
+}
+.curr-HoldingCard img{
+  width: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 10px;
+}
